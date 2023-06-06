@@ -1,0 +1,17 @@
+{
+    "name": "cs-554-lab2",
+    "version": "1.0.0",
+    "description": "my lab 2 module",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Jacob Roessler 10448394",
+    "license": "ISC",
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "express": "^4.17.2",
+        "node-redis": "^0.1.7",
+        "redis": "^3.0.2"
+    }
+}
