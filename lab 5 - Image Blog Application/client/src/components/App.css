@@ -1,0 +1,173 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: rgb(55, 56, 58);
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    color: white;
+}
+
+.App-title {
+    text-align: left;
+    padding: 20px;
+}
+
+cite {
+    font-weight: bold;
+}
+table {
+    align-content: center;
+    margin: auto;
+}
+td {
+    padding: 10px;
+}
+
+.App-intro {
+    font-size: large;
+}
+.cap-first-letter:first-letter {
+    text-transform: capitalize;
+}
+.col-sm-6,
+col-md-4 {
+    border: 1px;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.navlink {
+    padding: 0.4rem 0.8rem;
+    background-color: white;
+    border-radius: 3px;
+    color: #28547a;
+    text-decoration: none !important;
+    margin-right: 20px;
+}
+
+.button {
+    padding: 0.4rem 0.8rem;
+    background-color: #28547a;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none !important;
+}
+
+.button:hover {
+    padding: 0.4rem 0.8rem;
+    background-color: white;
+    border-radius: 3px;
+    color: #28547a;
+    text-decoration: none !important;
+}
+
+.navlink:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+input,
+select {
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #28547a;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: 0 auto 20px;
+}
+.splash-button,
+.make-post {
+    text-decoration: none !important;
+    background-color: #28547a;
+    border-radius: 3px;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
+.new-link {
+    text-decoration: none !important;
+    color: white;
+}
+.new-link:hover {
+    background-color: transparent;
+    color: white;
+}
+.card-title {
+    font-size: x-large;
+}
+.card-description {
+    font-size: medium;
+}
+
+.cancel-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.add-button {
+    position: absolute;
+    bottom: 20px;
+}
+span {
+    font-weight: bold;
+}
+
+.newPost {
+    text-align: center;
+    margin: 8% auto;
+    min-height: 60%;
+    width: 40%;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    background: white;
+    padding: 15px;
+}
+
+.posts-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(129, 122, 122, 0.363);
+}
+
+.post-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+label {
+    width: 100%;
+    padding: 5px;
+}
+input {
+    padding: 5px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}

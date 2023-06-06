@@ -1,0 +1,21 @@
+{
+    "name": "cs-554-lab6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "seed": "node ./tasks/seed.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Jacob Roessler 10448394",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.23.0",
+        "bluebird": "^3.7.2",
+        "express": "^4.17.3",
+        "redis": "^3.0.2",
+        "uuid": "^8.0.0"
+    }
+}
